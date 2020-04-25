@@ -500,3 +500,9 @@ td {
     color: #888888;
     font-size: 11px;
 }
+
+.thanks {
+  background-color: #222222;
+  color: #ffffff;
+  padding: 2vh;
+}
