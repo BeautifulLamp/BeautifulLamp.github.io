@@ -3,8 +3,6 @@ body { /* страница */
     color: #fff;
     font-family: Roboto, serif;
     margin: 0;
-    background: url("source/cosmos.jpg");
-    background-attachment: fixed;
     overflow-x: hidden;
 }
 
@@ -97,10 +95,6 @@ header:hover {
 }
 
 .start { /* приветствие */
-    background-image: url("source/leaves.jpg");
-    background-size: 100%;
-    background-position: 50% 50%;
-
     transition: all 0.5s;
     z-index: 5000;
     animation-name: start;
