@@ -6,18 +6,6 @@
         fullscr.textContent = "Вы в полноэкранном режиме. Для выхода нажмите ESC.";
     }
 
-    var startY = -100;
-    var startX = -100;
-    var w = document.documentElement.offsetWidth;
-    var h = document.documentElement.offsetHeight;
-    var main = document.querySelector("main-block");
-
-    body.addEventListener('mousemove', function (evt) {
-        var posX = Math.round(evt.clientX / w * startX);
-        var posY = Math.round(evt.clientY / h * startY);
-        body.style.backgroundPosition = posX + 'px ' + posY + 'px';
-    });
-
     thefame.onclick = function () {
         h3.textContent = "The Fame";
         text.textContent = "The Fame — дебютный альбом Леди Гаги, выпущенный в 2008 году. Альбом был положительно встречен критикой. Альбом занял первую строчку в таких странах, как Соединенное Королевство, Канада и Ирландия. https://ru.wikipedia.org/wiki/The_Fame";
