@@ -33,7 +33,7 @@
 
     chromatica.onclick = function () {
         h3.textContent = "Chromatica";
-        text.textContent = "Chromatica — шестой студийный альбом певицы Леди Гаги, выход запланирован на апрель 2020 года. В феврале Леди Гага анонсировала песню Stupid Love, и на рекламных щитах этой песни (и в самом клипе) красовались надписи Chromatica. Альбом включает в себя 16 треков. https://ru.wikipedia.org/wiki/Chromatica";
+        text.textContent = "Chromatica — шестой студийный альбом певицы Леди Гаги, выход которого состоялся 29 мая 2020 года. В феврале Леди Гага анонсировала песню Stupid Love, и на рекламных щитах этой песни (и в самом клипе) красовались надписи Chromatica. Альбом включает в себя 16 треков. https://ru.wikipedia.org/wiki/Chromatica";
     }
 
 
